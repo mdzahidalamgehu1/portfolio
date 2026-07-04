@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: #020617;
+  color: white;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.input-style {
+  @apply w-full px-5 py-4 rounded-2xl bg-slate-950/80 border border-white/10 text-white outline-none focus:border-blue-500;
+}
