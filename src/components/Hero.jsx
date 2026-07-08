@@ -115,7 +115,7 @@ function Hero() {
             <div className="relative w-full h-full rounded-full p-[4px] bg-gradient-to-r from-blue-600 via-cyan-400 to-blue-600">
               <div className="w-full h-full rounded-full overflow-hidden bg-slate-900">
                 <img
-                  src="/images/profile.jpg"
+                  src="/images/profile.npg"
                   alt="Md Zahid Alam"
                   className="w-full h-full object-cover"
                 />
